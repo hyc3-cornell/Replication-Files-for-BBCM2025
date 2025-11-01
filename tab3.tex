@@ -1,0 +1,23 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+                    &\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}&\multicolumn{1}{c}{tradedispute}\\
+\midrule
+Domestic Content Sh.&      0.0025\sym{***}&      0.0031\sym{***}&      0.0031\sym{***}&      0.0044\sym{***}&      0.0033\sym{***}&      0.0033\sym{***}&      0.0028\sym{*}  &      0.0030\sym{*}  \\
+                    &    (0.0008)         &    (0.0008)         &    (0.0008)         &    (0.0007)         &    (0.0008)         &    (0.0009)         &    (0.0014)         &    (0.0016)         \\
+\midrule
+Observations        &      102960         &      102960         &      102960         &      102960         &      102960         &      102960         &      102960         &      102960         \\
+Importer-year FE    &         Yes         &         Yes         &         Yes         &          No         &          No         &          No         &          No         &          No         \\
+Exporter-year FE    &          No         &          No         &          No         &         Yes         &         Yes         &         Yes         &          No         &          No         \\
+Importer FE         &          No         &          No         &          No         &          No         &         Yes         &         Yes         &          No         &          No         \\
+Exporter FE         &          No         &         Yes         &         Yes         &          No         &          No         &          No         &          No         &          No         \\
+Pair FE             &          No         &          No         &          No         &          No         &          No         &          No         &         Yes         &         Yes         \\
+Year FE             &          No         &          No         &          No         &          No         &          No         &          No         &         Yes         &         Yes         \\
+Importer Manu. Prod &          No         &          No         &          No         &          No         &          No         &         Yes         &          No         &         Yes         \\
+Exporter Manu. Prod.&          No         &          No         &         Yes         &          No         &          No         &          No         &          No         &         Yes         \\
+R2                  &      0.0397         &      0.0590         &      0.0593         &      0.0448         &      0.0569         &      0.0570         &      0.1765         &      0.1768         \\
+\bottomrule
+\end{tabular}
+}
